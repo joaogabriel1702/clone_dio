@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../assets/logo-dio.png'
+import Logo from '../../assets/logo-dio.png'
 import {
     BuscarInputContainer,
     Container,
@@ -17,7 +17,7 @@ const Header = () => {
     <Wrapper>
         <Container>
             <Row>
-                <img src={logo} alt="Logo da Dio"/>
+                <img src={Logo} alt="Logo da Dio"/>
                 <BuscarInputContainer>
                     <Input placeholder='Buscar...'/>
                 </BuscarInputContainer>
