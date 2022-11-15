@@ -34,6 +34,7 @@ export const Title = styled.h2`
     font-weight: 700;
     font-size: 32px;
     width: 320px;
+    max-width: 90%;
     margin-bottom: 20px;
     line-height: 44px;
 
@@ -45,7 +46,7 @@ export const TitleLogin = styled.p`
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
-    margin-bottom: 20px;
+    margin-bottom: 8px;
     line-height: 44px;
 `
 
@@ -55,7 +56,7 @@ export const SubtitleLogin = styled.p`
     font-weight: 400;
     font-size: 18px;
     margin-bottom: 35px;
-    line-height: 44px;
+    line-height: 25px;
 `
 
 export const EsqueciText = styled.p`
