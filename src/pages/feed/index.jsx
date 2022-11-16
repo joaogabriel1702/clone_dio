@@ -25,7 +25,6 @@ const Feed = () => {
                 <TitleHighlight># RANKING 5 TOP DA SEMANA</TitleHighlight>
                 <UserInfo nome="João Gabriel" image="https://avatars.githubusercontent.com/u/38577266?v=4" percentual={35} />
                 <UserInfo nome="João Gabriel" image="https://avatars.githubusercontent.com/u/38577266?v=4" percentual={80} />
-                <UserInfo nome="João Gabriel" image="https://avatars.githubusercontent.com/u/38577266?v=4" percentual={5} />
                 <UserInfo nome="João Gabriel" image="https://avatars.githubusercontent.com/u/38577266?v=4" percentual={50} />
                 <UserInfo nome="João Gabriel" image="https://avatars.githubusercontent.com/u/38577266?v=4" percentual={99} />
                 <UserInfo nome="João Gabriel" image="https://avatars.githubusercontent.com/u/38577266?v=4" percentual={70} />
