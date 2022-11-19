@@ -1,6 +1,6 @@
 # Clone da DIO
 
-Este programa é um clone das paginas Home, Login e Feed da DIO feito em React e JavaScript (posteriormente mudado para TypeScript) e foi feito durante o Bootcamp Orange Tech + na plataforma da DIO (Digital Innovation One
+Este programa é um clone das paginas Home, Login e Feed da DIO feito em React e JavaScript (posteriormente mudado para TypeScript) e foi feito durante o Bootcamp Orange Tech + na plataforma da DIO (Digital Innovation One)
 
 
 
