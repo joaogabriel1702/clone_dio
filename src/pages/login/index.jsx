@@ -8,6 +8,7 @@ import { Input } from '../../components/Input';
 import { Button } from '../../components/Button';
 import { Header } from '../../components/Header';
 
+import { api } from '../../services/api'
 import { 
     Column, 
     Container, 
@@ -34,14 +35,18 @@ const Login = () => {
         mode: 'onChange',
     });
 
-    console.log(isValid, errors)
-
-    const onSubmit = data => console.log(data);
-
-    const handleClickLogin = () => {
-        navigate('/feed')
-    }
-
+    const onSubmit = async formData => {
+        try{
+            const { data } = await api.get(`users?email=${formData.email}&senha=${formData.password}`);
+            if(data.length === 1){
+                navigate('/feed')           
+            } else{
+                alert('Email ou senha invalido')
+            }
+        }catch{
+            alert('Houve um erro, tente novamente')
+        }
+    };
 
     return(<>
     <Header/>
